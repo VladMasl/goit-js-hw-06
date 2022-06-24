@@ -7,7 +7,7 @@ const incrementBtn = document.querySelector(
 
 const onTargetBtnClick = document.querySelector("#value");
 
-let counterValue;
+let counterValue = 0;
 
 const btnClick = () => {
   counterValue = onTargetBtnClick.textContent;
