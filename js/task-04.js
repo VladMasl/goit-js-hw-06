@@ -16,8 +16,6 @@ const btnClick = () => {
 
 incrementBtn.addEventListener("click", btnClick);
 
-const ofTargetBtnClick = document.querySelector("#value");
-
 const ofBtnClick = () => {
   counterValue = onTargetBtnClick.textContent;
   onTargetBtnClick.textContent = parseInt(counterValue) - 1;

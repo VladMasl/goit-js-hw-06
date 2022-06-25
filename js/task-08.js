@@ -8,7 +8,11 @@ formEl.addEventListener("submit", (event) => {
     return alert("Bсі поля повинні бути заповнені.");
   }
 
-  console.log(`EMAIL: ${email.value}, PASSWORD: ${password.value}`);
+  const dataForm = {
+    email: email.value,
+    password: password.value,
+  };
 
+  console.log(dataForm);
   event.target.reset();
 });
